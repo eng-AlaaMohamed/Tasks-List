@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+    <style>
+      .contanir {
+        margin: auto;
+        width: 500px;
+      }
+      .form {
+        background-color: #eee;
+        padding: 30px;
+        border-radius: 10px;
+      }
+      #input {
+        width: calc(100% - 130px);
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+      }
+      #add {
+        background-color: red;
+        padding: 15px;
+        border: none;
+        color: white;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .tasks {
+        padding: 20px;
+        background-color: #eee;
+        margin: 20px 0;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contanir">
+      <div class="form">
+        <input type="text" id ="input">
+        <input type="submit" id="add" value=" Add Task">
+      </div>
+      <div class="tasks"></div>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
